@@ -1,0 +1,62 @@
+/*==== GERAL ====*/
+*{
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;/* porcetagem em realação altura*/
+    width: 100vw; /* porcentagem  em relação largura*/
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("../img/planeta.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+/*==== BACKGROUD ====*/
+body,
+.conteiner,
+.conteiner__infos,
+.conteiner__social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*==== PERFIL ====*/
+.conteiner{
+    width: 50%;
+    background-color: white;
+    flex-direction: column;
+    border-radius: 10px;
+    padding: 30px;
+}
+.conteiner__infos{
+    flex-direction: column;
+
+}
+.conteiner__infos--img{
+    width: 300px;
+    border-radius: 50%;
+}
+.conteiner__infos--titulo{
+    font-size: 50px;
+    text-align: center;
+    color: crimson;
+    margin-bottom: 0;
+}
+.conteiner__infos--subtitulo{
+    font-weight: 400;
+    margin-top: 0;
+
+}
+.conteiner__social--img{
+    width: 50px;
+    margin-left: 20px;
+}
+
+
+
+
+
+
